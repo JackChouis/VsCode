@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-04 19:23:10
- * @LastEditTime: 2019-10-08 21:27:00
+ * @LastEditTime: 2019-10-08 21:25:50
  * @LastEditors: Please set LastEditors
  */
 
@@ -20,7 +20,7 @@ int main()
     for(int i=0;i<8;i++)
     {
         printf("%d\n",i);
-        printf("this is hello world!");
+        printf("what the fuck!");
         printf("what waht a fuck");
         printf("5");
         printf("6");
@@ -29,6 +29,7 @@ int main()
         printf("9");
 
     }
+    
 
     system("pause");
     return 0;

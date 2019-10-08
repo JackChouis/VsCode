@@ -7,11 +7,19 @@
             "label": "build hello world",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "-o", "helloworld", "helloworld.c"],
+            "args": [
+                "-g",
+                "-o",
+                "helloworld",
+                "helloworld.c"
+            ],
             "group": {
-              "kind": "build",
-              "isDefault": true
-            }
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
