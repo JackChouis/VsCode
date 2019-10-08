@@ -7,11 +7,19 @@
             "label": "build China Cheese",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "-o", "main", "main.c"],
+            "args": [
+                "-g",
+                "-o",
+                "main",
+                "main.c"
+            ],
             "group": {
-              "kind": "build",
-              "isDefault": true
-            }
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
