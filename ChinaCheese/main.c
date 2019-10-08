@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-04 19:23:10
- * @LastEditTime: 2019-10-08 21:25:50
+ * @LastEditTime: 2019-10-08 22:25:10
  * @LastEditors: Please set LastEditors
  */
 
@@ -15,19 +15,29 @@
  */
 int main()
 {
-    printf("hello world\n");
-
-    for(int i=0;i<8;i++)
+    /**positon ：
+     * 00 01 02    0 1 2 
+     * 10 11 12    3 4 5 
+     * 20 21 22    6 7 8 
+     */
+    int position = 0;
+    for(;position<9;position++)
     {
-        printf("%d\n",i);
-        printf("what the fuck!");
-        printf("what waht a fuck");
-        printf("5");
-        printf("6");
-        printf("7");
-        printf("8");
-        printf("9");
-
+        if (position%3 == 0)
+        {
+            printf("将：%d  帅： %d\n",position, position+1);
+            printf("将：%d  帅： %d\n",position, position+2);
+        }
+        if (position%3 == 1)
+        {
+            printf("将：%d  帅： %d\n",position, position-1);
+            printf("将：%d  帅： %d\n",position, position+1);
+        }
+        if (position%3 == 2)
+        {
+            printf("将：%d  帅： %d\n",position, position-2);
+            printf("将：%d  帅： %d\n",position, position-1);
+        }
     }
     
 
