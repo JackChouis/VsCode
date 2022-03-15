@@ -29,16 +29,6 @@ int main()
             printf("将：%d  帅： %d\n",position, position+1);
             printf("将：%d  帅： %d\n",position, position+2);
         }
-        if (position%3 == 1)
-        {
-            printf("将：%d  帅： %d\n",position, position-1);
-            printf("将：%d  帅： %d\n",position, position+1);
-        }
-        if (position%3 == 2)
-        {
-            printf("将：%d  帅： %d\n",position, position-2);
-            printf("将：%d  帅： %d\n",position, position-1);
-        }
     }
     
 
