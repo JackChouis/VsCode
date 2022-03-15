@@ -28,6 +28,7 @@ int main()
         {
             printf("将：%d  帅： %d\n",position, position+1);
             printf("将：%d  帅： %d\n",position, position+2);
+            printf("我十岁呀\n");
         }
     }
     
