@@ -23,6 +23,8 @@ int main()
         printf("this is hello world!");
         printf("what waht a fuck");
         printf("5");
+                printf("5");
+                        printf("5");
 
     }
 
