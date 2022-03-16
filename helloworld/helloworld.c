@@ -23,10 +23,6 @@ int main()
         printf("this is hello world!");
         printf("what waht a fuck");
         printf("5");
-        printf("6");
-        printf("7");
-        printf("8");
-        printf("9");
 
     }
 
