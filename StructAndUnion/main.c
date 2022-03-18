@@ -2,7 +2,7 @@
  * @Author: JackChouis
  * @Date: 2022-03-17 01:08:39
  * @LastEditors: JackChouis
- * @LastEditTime: 2022-03-18 21:13:50
+ * @LastEditTime: 2022-03-18 22:13:11
  * @FilePath: \VsCode\StructAndUnion\main.c
  * @Description: 
  * 
@@ -10,7 +10,9 @@
  */
 #include<stdio.h>
 #include "test.h"
+#include"test2.h"
 extern int add();
+extern int minus();
 int t = 0;
 typedef struct 
 {
@@ -32,5 +34,8 @@ void main()
 {
     int s = add();
     printf("s value is %d\n", s);
+
+    int ss = minus();
+       printf("ss value is %d\n", ss);
     //   printf("test%d",sizeof(data));
 }

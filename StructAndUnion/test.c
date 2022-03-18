@@ -10,6 +10,7 @@
  */
 #include "test.h"
 
+int m = 0;
 int add()
 {
     t = t + 4;
